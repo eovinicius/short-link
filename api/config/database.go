@@ -9,7 +9,7 @@ import (
 )
 
 func DbPostgres() *sql.DB {
-	db, err := sql.Open("postgres", "host=localhost port=5432 user=admin password=golang dbname=db_short_url sslmode=disable")
+	db, err := sql.Open("postgres", "host=localhost port=5432 user=admin password=admin dbname=db_short_url sslmode=disable")
 	if err != nil {
 		panic(err)
 	}
