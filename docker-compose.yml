@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  postgres:
+    image: bitnami/postgresql:latest
+    environment:
+      - POSTGRES_USER=golang
+      - POSTGRES_PASSWORD=golang
+      - POSTGRES_DB=db_short_url
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: bitnami/redis:latest
+    environment:
+      - REDIS_USERNAME=golang
+      - REDIS_PASSWORD=golang
+    ports:
+      - "6379:6379"

@@ -1,0 +1,39 @@
+# Arquivos de compilação
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de objeto
+*.o
+*.obj
+
+# Arquivos binários
+*.a
+
+# Diretório de dependências
+vendor/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração
+*.env
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de build
+build/
+
+# Arquivos de cobertura de código
+*.cover
+*.out
+
+# Arquivos de IDE
+.idea/
+.vscode/
